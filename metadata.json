@@ -1,0 +1,6 @@
+{
+  "name": "Waste2Value - Industrial Circularity Optimization",
+  "description": "Precision circular-economy optimization platform for industrial waste streams, algorithmic destination matching, and regulatory compliance manifests.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
