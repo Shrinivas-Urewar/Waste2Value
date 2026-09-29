@@ -1,0 +1,124 @@
+FA-AAC DATASET CLEANING REPORT
+==================================================
+
+Original shape: (800, 97)
+Final shape: (800, 97)
+
+Renamed duplicate columns:
+  Initial curing time (day)  -> Initial curing time (day)
+  Cylinder H  -> Cylinder H
+  1-d  -> 1-d
+  3-d  -> 3-d
+  7-d  -> 7-d
+  28-d  -> 28-d
+  90-d  -> 90-d
+  365-d  -> 365-d
+  7-d -> 7-d__duplicate_1
+  28-d -> 28-d__duplicate_1
+  90-d -> 90-d__duplicate_1
+  365-d -> 365-d__duplicate_1
+
+Removed completely empty columns:
+
+Percentage columns converted:
+
+Missing-value report:
+                          column  missing_count  missing_percent
+                           365-d            799           99.875
+                          3-d .3            798           99.750
+                          3-d .4            798           99.750
+         365-d Porosity/AVPV (%)            797           99.625
+                  365-d Ec (MPa)            795           99.375
+                         365-d.1            794           99.250
+                        365-d .1            794           99.250
+              365-d__duplicate_1            794           99.250
+                   90-d Ec (MPa)            793           99.125
+                        365-d .2            793           99.125
+               90-d__duplicate_1            793           99.125
+                          90-d.1            793           99.125
+                    7-d Ec (MPa)            791           98.875
+                            90-d            788           98.500
+            Initial Setting Time            788           98.500
+          90-d Porosity/AVPV (%)            788           98.500
+                    3-d Ec (MPa)            776           97.000
+              Final Setting Time            776           97.000
+                         90-d .1            774           96.750
+                         90-d .2            762           95.250
+                           7-d.1            760           95.000
+                7-d__duplicate_1            760           95.000
+                       flowtable            760           95.000
+                          1-d .1            755           94.375
+                             1-d            750           93.750
+          28-d Porosity/AVPV (%)            748           93.500
+                   28-d Ec (MPa)            719           89.875
+                          28-d.1            713           89.125
+               28-d__duplicate_1            713           89.125
+                          1-d .2            705           88.125
+                          3-d .1            701           87.625
+                         28-d .1            674           84.250
+                             3-d            644           80.500
+           NaOH specific gravity            630           78.750
+                            28-d            579           72.375
+                      Slump (mm)            563           70.375
+                          7-d .1            562           70.250
+                          3-d .2            545           68.125
+                             7-d            526           65.750
+                         28-d .2            454           56.750
+                      Cylinder H            424           53.000
+                      Cylinder D            424           53.000
+        Na2SiO3 specific gravity            418           52.250
+              FA density (kg/m3)            381           47.625
+                          Cube D            376           47.000
+  Initial curing rest time (day)            346           43.250
+                  Fine aggregate            319           39.875
+                Coarse aggregate            319           39.875
+                          7-d .2            289           36.125
+       Initial curing time (day)             78            9.750
+             Mixture Code in Ref             74            9.250
+           Final curing temp (C)             43            5.375
+  Fine aggregate (kg in 1m3 mix)             17            2.125
+        Coarse aggregate (kg/m3)             17            2.125
+         Initial curing temp (C)              2            0.250
+                            Na2O              1            0.125
+                             K2O              1            0.125
+                             SO3              1            0.125
+                      Idx_Sample              1            0.125
+                            Ref.              1            0.125
+                             MgO              1            0.125
+                             CaO              1            0.125
+                           Fe2O3              1            0.125
+                           Al2O3              1            0.125
+                            SiO2              1            0.125
+                          SAF, %              1            0.125
+                             H2O              1            0.125
+                        SiO2 (l)              1            0.125
+                        Na2O (l)              1            0.125
+Total Na2SiO3 (kg in 1m3 of mix)              1            0.125
+                SiO2/Al2O3 ratio              1            0.125
+Total aggregates (kg in 1m3 mix)              1            0.125
+Binder-to-total-aggregates ratio              1            0.125
+   Fine-to-total-aggregate ratio              1            0.125
+                      FA (kg/m3)              1            0.125
+                            TiO2              1            0.125
+                            P2O5              1            0.125
+                             SrO              1            0.125
+                           Mn2O3              1            0.125
+                             MnO              1            0.125
+                             LOI              1            0.125
+           Water-to-binder ratio              1            0.125
+                      Na2O (Dry)              1            0.125
+                      SiO2 (Dry)              1            0.125
+                           Water              1            0.125
+      Total NaOH (kg in 1m3 mix)              1            0.125
+                      Na2O solid              1            0.125
+          Concentration (M) NaOH              1            0.125
+                         Water.1              1            0.125
+                      NaOH (Dry)              1            0.125
+    Solid-activator/binder ratio              1            0.125
+  Total-Na2SiO3/Total-NaOH ratio              1            0.125
+         Total-Na2O/binder ratio              1            0.125
+                  MS (SiO2/Na2O)              1            0.125
+Additional water (kg in 1m3 mix)              1            0.125
+Superplasticizer (kg in 1m3 mix)              1            0.125
+     Total water (kg in 1m3 mix)              1            0.125
+                  _missing_count              0            0.000

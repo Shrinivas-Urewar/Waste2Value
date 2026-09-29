@@ -1,0 +1,126 @@
+top_k,rank,feature
+10,1,CaO
+10,2,"SAF, %"
+10,3,SiO2
+10,4,SiO2/Al2O3 ratio
+10,5,Na2O (Dry)
+10,6,Fe2O3
+10,7,Total Na2SiO3 (kg in 1m3 of mix)
+10,8,Na2O
+10,9,Slump (mm)
+10,10,Fine aggregate (kg in 1m3 mix)
+15,1,CaO
+15,2,"SAF, %"
+15,3,SiO2
+15,4,SiO2/Al2O3 ratio
+15,5,Na2O (Dry)
+15,6,Fe2O3
+15,7,Total Na2SiO3 (kg in 1m3 of mix)
+15,8,Na2O
+15,9,Slump (mm)
+15,10,Fine aggregate (kg in 1m3 mix)
+15,11,Binder-to-total-aggregates ratio
+15,12,FA (kg/m3)
+15,13,Total aggregates (kg in 1m3 mix)
+15,14,LOI
+15,15,FA density (kg/m3)
+20,1,CaO
+20,2,"SAF, %"
+20,3,SiO2
+20,4,SiO2/Al2O3 ratio
+20,5,Na2O (Dry)
+20,6,Fe2O3
+20,7,Total Na2SiO3 (kg in 1m3 of mix)
+20,8,Na2O
+20,9,Slump (mm)
+20,10,Fine aggregate (kg in 1m3 mix)
+20,11,Binder-to-total-aggregates ratio
+20,12,FA (kg/m3)
+20,13,Total aggregates (kg in 1m3 mix)
+20,14,LOI
+20,15,FA density (kg/m3)
+20,16,SiO2 (Dry)
+20,17,Coarse aggregate (kg/m3)
+20,18,NaOH (Dry)
+20,19,Total water (kg in 1m3 mix)
+20,20,Concentration (M) NaOH
+30,1,CaO
+30,2,"SAF, %"
+30,3,SiO2
+30,4,SiO2/Al2O3 ratio
+30,5,Na2O (Dry)
+30,6,Fe2O3
+30,7,Total Na2SiO3 (kg in 1m3 of mix)
+30,8,Na2O
+30,9,Slump (mm)
+30,10,Fine aggregate (kg in 1m3 mix)
+30,11,Binder-to-total-aggregates ratio
+30,12,FA (kg/m3)
+30,13,Total aggregates (kg in 1m3 mix)
+30,14,LOI
+30,15,FA density (kg/m3)
+30,16,SiO2 (Dry)
+30,17,Coarse aggregate (kg/m3)
+30,18,NaOH (Dry)
+30,19,Total water (kg in 1m3 mix)
+30,20,Concentration (M) NaOH
+30,21,Na2O solid
+30,22,Al2O3
+30,23,Initial curing temp (C)
+30,24,Water-to-binder ratio
+30,25,MgO
+30,26,Water
+30,27,Water__duplicate_1
+30,28,K2O
+30,29,MS (SiO2/Na2O)
+30,30,Total-Na2SiO3/Total-NaOH ratio
+50,1,CaO
+50,2,"SAF, %"
+50,3,SiO2
+50,4,SiO2/Al2O3 ratio
+50,5,Na2O (Dry)
+50,6,Fe2O3
+50,7,Total Na2SiO3 (kg in 1m3 of mix)
+50,8,Na2O
+50,9,Slump (mm)
+50,10,Fine aggregate (kg in 1m3 mix)
+50,11,Binder-to-total-aggregates ratio
+50,12,FA (kg/m3)
+50,13,Total aggregates (kg in 1m3 mix)
+50,14,LOI
+50,15,FA density (kg/m3)
+50,16,SiO2 (Dry)
+50,17,Coarse aggregate (kg/m3)
+50,18,NaOH (Dry)
+50,19,Total water (kg in 1m3 mix)
+50,20,Concentration (M) NaOH
+50,21,Na2O solid
+50,22,Al2O3
+50,23,Initial curing temp (C)
+50,24,Water-to-binder ratio
+50,25,MgO
+50,26,Water
+50,27,Water__duplicate_1
+50,28,K2O
+50,29,MS (SiO2/Na2O)
+50,30,Total-Na2SiO3/Total-NaOH ratio
+50,31,Total-Na2O/binder ratio
+50,32,Solid-activator/binder ratio
+50,33,Mn2O3
+50,34,SO3
+50,35,P2O5
+50,36,Fine-to-total-aggregate ratio
+50,37,Total NaOH (kg in 1m3 mix)
+50,38,Initial curing time (day)
+50,39,Fine aggregate
+50,40,TiO2
+50,41,Coarse aggregate
+50,42,Additional water (kg in 1m3 mix)
+50,43,Superplasticizer (kg in 1m3 mix)
+50,44,Final curing temp (C)
+50,45,Initial curing rest time (day)
+50,46,MnO
+50,47,Cylinder D
+50,48,Cube D
+50,49,Cylinder H
+50,50,SrO

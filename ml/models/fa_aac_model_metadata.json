@@ -1,0 +1,169 @@
+{
+    "model_name": "FA-AAC 28-day converted compressive strength predictor",
+    "version": "1.0",
+    "dataset": "FA_AAC_features.csv",
+    "target": "converted_strength_28d",
+    "target_unit": "MPa",
+    "training_samples": 346,
+    "feature_count": 20,
+    "features": [
+        "CaO",
+        "SAF, %",
+        "SiO2",
+        "SiO2/Al2O3 ratio",
+        "Na2O (Dry)",
+        "Fe2O3",
+        "Total Na2SiO3 (kg in 1m3 of mix)",
+        "Na2O",
+        "Slump (mm)",
+        "Fine aggregate (kg in 1m3 mix)",
+        "Binder-to-total-aggregates ratio",
+        "FA (kg/m3)",
+        "Total aggregates (kg in 1m3 mix)",
+        "LOI",
+        "FA density (kg/m3)",
+        "SiO2 (Dry)",
+        "Coarse aggregate (kg/m3)",
+        "NaOH (Dry)",
+        "Total water (kg in 1m3 mix)",
+        "Concentration (M) NaOH"
+    ],
+    "excluded_columns": [
+        "Idx_Sample"
+    ],
+    "preprocessing": {
+        "method": "SimpleImputer(strategy='median')",
+        "missing_value_strategy": "median",
+        "imputer_statistics": {
+            "CaO": 2.24,
+            "SAF, %": 90.2,
+            "SiO2": 51.3,
+            "SiO2/Al2O3 ratio": 2.085,
+            "Na2O (Dry)": 15.69,
+            "Fe2O3": 5.49,
+            "Total Na2SiO3 (kg in 1m3 of mix)": 114.15,
+            "Na2O": 0.36,
+            "Slump (mm)": 109.841,
+            "Fine aggregate (kg in 1m3 mix)": 590.0,
+            "Binder-to-total-aggregates ratio": 0.229,
+            "FA (kg/m3)": 408.0,
+            "Total aggregates (kg in 1m3 mix)": 1800.0,
+            "LOI": 0.45,
+            "FA density (kg/m3)": 2.4,
+            "SiO2 (Dry)": 33.07,
+            "Coarse aggregate (kg/m3)": 1200.0,
+            "NaOH (Dry)": 27.345,
+            "Total water (kg in 1m3 mix)": 105.15,
+            "Concentration (M) NaOH": 12.35
+        }
+    },
+    "model": {
+        "type": "RandomForestRegressor",
+        "n_estimators": 500,
+        "min_samples_leaf": 2,
+        "max_features": "sqrt",
+        "random_state": 42
+    },
+    "validation": {
+        "feature_selection": "Top-20 features from GroupKFold evaluation",
+        "method": "5-fold GroupKFold",
+        "group_definition": "Ref. + Mixture Code in Ref",
+        "metrics": {
+            "method": "5-fold GroupKFold",
+            "folds": 5,
+            "mae_mean": 4.621935686760161,
+            "mae_std": 0.32985108776525823,
+            "rmse_mean": 7.158118179637069,
+            "rmse_std": 1.144934022104876,
+            "r2_mean": 0.5520044715447534,
+            "r2_std": 0.0609485872439179
+        }
+    },
+    "training_metrics": {
+        "note": "Training metrics are descriptive only and must not be reported as validation performance.",
+        "mae": 2.804115126605367,
+        "rmse": 4.121623231362842
+    },
+    "feature_importance": [
+        {
+            "feature": "CaO",
+            "importance": 0.08986735334228249
+        },
+        {
+            "feature": "SAF, %",
+            "importance": 0.08776230336052052
+        },
+        {
+            "feature": "SiO2/Al2O3 ratio",
+            "importance": 0.08336148027023248
+        },
+        {
+            "feature": "SiO2",
+            "importance": 0.07971855806321648
+        },
+        {
+            "feature": "Na2O (Dry)",
+            "importance": 0.07065652584895332
+        },
+        {
+            "feature": "Fe2O3",
+            "importance": 0.05556252418801056
+        },
+        {
+            "feature": "Total Na2SiO3 (kg in 1m3 of mix)",
+            "importance": 0.04855022096590653
+        },
+        {
+            "feature": "Na2O",
+            "importance": 0.04752241131379194
+        },
+        {
+            "feature": "Fine aggregate (kg in 1m3 mix)",
+            "importance": 0.04585910000711109
+        },
+        {
+            "feature": "Slump (mm)",
+            "importance": 0.043724166827653115
+        },
+        {
+            "feature": "FA (kg/m3)",
+            "importance": 0.03756474593264346
+        },
+        {
+            "feature": "Total aggregates (kg in 1m3 mix)",
+            "importance": 0.03728786583367979
+        },
+        {
+            "feature": "Total water (kg in 1m3 mix)",
+            "importance": 0.036362173402160226
+        },
+        {
+            "feature": "SiO2 (Dry)",
+            "importance": 0.035810076600094505
+        },
+        {
+            "feature": "Binder-to-total-aggregates ratio",
+            "importance": 0.035728581449309696
+        },
+        {
+            "feature": "FA density (kg/m3)",
+            "importance": 0.035365511948699156
+        },
+        {
+            "feature": "NaOH (Dry)",
+            "importance": 0.034851784649607
+        },
+        {
+            "feature": "LOI",
+            "importance": 0.03323338527186424
+        },
+        {
+            "feature": "Concentration (M) NaOH",
+            "importance": 0.03264401632575949
+        },
+        {
+            "feature": "Coarse aggregate (kg/m3)",
+            "importance": 0.028567214398503862
+        }
+    ]
+}
